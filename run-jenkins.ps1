@@ -1,3 +1,4 @@
+.\kill-all-containers.ps1
 docker run `
   -u root `
   -d `
