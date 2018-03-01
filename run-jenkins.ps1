@@ -1,5 +1,6 @@
 docker run `
+  -u root `
   -d `
-  -p 8080:8080 `
+  -p 80:8080 `
   -v jenkins-data:/var/jenkins_home `
   jenkinsci/blueocean
