@@ -6,5 +6,6 @@ docker rm artifactory-pro
 docker run `
   -d `
   -p 8081:8081 `
+  -v artifactory-data:/var/opt/jfrog/artifactory `
   --name artifactory-pro `
   docker.bintray.io/jfrog/artifactory-pro:latest
